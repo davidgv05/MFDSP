@@ -1,0 +1,33 @@
+# --- R / RStudio ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user
+
+# --- renv (renv.lock IS committed, the library is not) ---
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+
+# --- Secrets (API keys, tokens) ---
+.Renviron
+.env
+
+# --- Quarto / R Markdown build output ---
+/.quarto/
+report/*_files/
+report/*.html
+*_cache/
+
+# --- macOS ---
+.DS_Store
+
+# --- Editors ---
+*.swp
+*~
+.vscode/
