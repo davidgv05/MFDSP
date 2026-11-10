@@ -1,0 +1,4 @@
+asset,max_drawdown_pct,peak_date,trough_date,recovery_date,days_peak_to_trough,days_to_recover,drawdown_end_2025_pct
+Bitcoin,-83.2,2017-12-18,2018-12-14,2020-11-24,361,711,-28.9
+Nasdaq-100,-35.6,2021-11-19,2022-12-28,2023-12-15,404,352,-3.3
+Gold,-22,2020-08-06,2022-09-26,2024-03-04,781,525,-4.9

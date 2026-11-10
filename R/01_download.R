@@ -1,7 +1,4 @@
-# R/01_download.R
 # Downloads all raw series and stores an untouched snapshot in data/raw/.
-# Run once; later scripts only read the CSVs, never the APIs.
-
 library(quantmod)
 library(readr)
 library(here)
@@ -22,7 +19,7 @@ save_series <- function(x, name) {
   invisible(df)
 }
 
-# ---- 1. FRED series (no API key needed) ---------------------------------------
+# ---- 1. FRED series ---------------------------------------
 fred <- c(
   BTC   = "CBBTCUSD",   # Bitcoin, Coinbase, USD, 7 days/week
   NDX   = "NASDAQ100",  # Nasdaq-100 index, daily close
